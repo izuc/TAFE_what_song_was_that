@@ -1,0 +1,907 @@
+body {
+	 background-color: #FFFFFF;
+	 background-image: url(images/background.png);
+}
+
+#main_container {
+	 position: relative;
+	 margin-left: auto;
+	 margin-right: auto;
+	 margin-top: 20px;
+	 width: 780px;
+}
+
+#header_container {
+	position: relative;
+	width: 780px;
+	height: 250px;
+	margin-bottom: 10px;
+}
+
+#banner_top {
+	position: relative;
+	width: 780px;
+	height: 50px;
+}
+
+#banner_top_left {
+	position: relative;
+	width: 20px;
+	height: 50px;
+	background-image: url(images/banner_top_left.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#banner_top_repeat {
+	position: relative;
+	width: 740px;
+	height: 50px;
+	background-image: url(images/banner_top_repeat.png);
+	background-repeat: repeat-x;
+	float: left;
+}
+
+#banner_top_right {
+	position: relative;
+	width: 20px;
+	height: 50px;
+	background-image: url(images/banner_top_right.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#banner_middle {
+	position: relative;
+	width: 780px;
+	height: 150px;
+	background-image: url(images/banner_middle.png);
+	background-repeat: no-repeat;
+}
+
+#banner_bottom {
+	position: relative;
+	width: 780px;
+	height: 50px;
+}
+
+#banner_bottom_left {
+	position: relative;
+	width: 365px;
+	height: 50px;
+	background-image: url(images/banner_bottom_left.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#banner_bottom_repeat {
+	position: relative;
+	width: 395px;
+	height: 50px;
+	background-image: url(images/banner_bottom_repeat.png);
+	background-repeat: repeat-x;
+	float: left;
+}
+
+#banner_bottom_right {
+	position: relative;
+	width: 20px;
+	height: 50px;
+	background-image: url(images/banner_bottom_right.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#body_container {
+	position: relative;
+	width: 780px;
+}
+
+#side_bar {
+	position: relative;
+	width: 200px;
+	margin-right: 10px;
+	float: left;
+}
+
+#menu_container {
+	position: relative;
+	width: 200px;
+	float: left;
+}
+
+#menu_header {
+	position: relative;
+	width: 200px;
+	height: 50px;
+	background-image: url(images/menu_header.png);
+	background-repeat: no-repeat;
+}
+
+#menu_shadow {
+	position: relative;
+	width: 200px;
+	height: 25px;
+	background-image: url(images/menu_shadow.png);
+	background-repeat: no-repeat;
+}
+
+#menu_repeat {
+	position: relative;
+	width: 200px;
+	background-image: url(images/menu_repeat.png);
+	background-repeat: repeat-y;
+	overflow: hidden;
+}
+
+#menu_links {
+	position: relative;
+	width: 180px;
+	margin: 10px;
+	float: left;
+}
+
+#mycart_container {
+	position: relative;
+	width: 200px;
+	margin-top: 10px;
+	float: left;
+}
+
+#mycart_header {
+	position: relative;
+	width: 200px;
+	height: 50px;
+	background-image: url(images/mycart_header.png);
+	background-repeat: no-repeat;
+}
+
+#mycart_shadow {
+	position: relative;
+	width: 200px;
+	height: 25px;
+	background-image: url(images/mycart_shadow.png);
+	background-repeat: no-repeat;
+}
+
+#mycart_repeat {
+	position: relative;
+	width: 200px;
+	background-image: url(images/mycart_repeat.png);
+	background-repeat: repeat-y;
+	overflow: hidden;
+}
+
+#mycart_links {
+	position: relative;
+	width: 180px;
+	margin: 10px;
+	float: left;
+}
+
+#mycart_buttons {
+	position: relative;
+	width: 180px;
+	margin: 10px;
+	float: left;
+}
+
+#menu_page_register {
+	position: relative;
+	display: block;
+	width: 180px;
+	height: 25px;
+	background-image: url(images/menu_page_register.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor: pointer;
+	float: left;
+}
+
+#menu_page_register:hover {
+	background-position: 0px -25px;
+}
+
+#menu_logout {
+	position: relative;
+	display: block;
+	width: 180px;
+	height: 25px;
+	background-image: url(images/menu_logout.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor: pointer;
+	float: left;
+}
+
+#menu_logout:hover {
+	background-position: 0px -25px;
+}
+
+#menu_page_profile {
+	position: relative;
+	display: block;
+	width: 180px;
+	height: 25px;
+	background-image: url(images/menu_page_profile.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor: pointer;
+	float: left;
+}
+
+#menu_page_profile:hover {
+	background-position: 0px -25px;
+}
+
+#menu_admin_artists {
+	position: relative;
+	display: block;
+	width: 180px;
+	height: 25px;
+	background-image: url(images/menu_admin_artists.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor: pointer;
+	float: left;
+}
+
+#menu_admin_artists:hover {
+	background-position: 0px -25px;
+}
+
+#menu_admin_lyrics {
+	position: relative;
+	display: block;
+	width: 180px;
+	height: 25px;
+	background-image: url(images/menu_admin_lyrics.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor: pointer;
+	float: left;
+}
+
+#menu_admin_lyrics:hover {
+	background-position: 0px -25px;
+}
+
+#menu_footer {
+	position: relative;
+	width: 200px;
+	height: 30px;
+	background-image: url(images/menu_footer.png);
+	background-repeat: no-repeat;
+}
+
+#mycart_footer {
+	position: relative;
+	width: 200px;
+	height: 30px;
+	background-image: url(images/mycart_footer.png);
+	background-repeat: no-repeat;
+}
+
+#content_container {
+	position: relative;
+	width: 570px;
+	float: left;
+}
+
+#content_header {
+	position: relative;
+	width: 570px;
+	height: 75px;
+	background-image: url(images/content_header.png);
+	background-repeat: no-repeat;
+}
+
+#show_catalogue {
+	position: relative;
+	display: block;
+	width: 200px;
+	height: 50px;
+	background-image: url(images/show_catalogue.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor: pointer;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#show_catalogue:hover {
+	background-position: 0px -50px;
+}
+
+#content_repeat {
+	position: relative;
+	width: 570px;
+	background-image: url(images/content_repeat.png);
+	background-repeat: repeat-y;
+	overflow: hidden;
+}
+
+#content_footer {
+	position: relative;
+	width: 570px;
+	height: 200px;
+	background-image: url(images/content_footer.png);
+	background-repeat: no-repeat;
+}
+
+#box_container {
+	position: relative;
+	width: 400px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+#box_header {
+	position: relative;
+	width: 400px;
+	height: 50px;
+}
+
+#box_shadow {
+	position: relative;
+	width: 400px;
+	height: 25px;
+	background-image: url(images/box_shadow.png);
+	background-repeat: no-repeat;
+}
+
+#box_repeat {
+	position: relative;
+	width: 400px;
+	background-image: url(images/box_repeat.png);
+	background-repeat: repeat-y;
+	overflow: hidden;
+}
+
+#box_footer {
+	position: relative;
+	width: 400px;
+	height: 20px;
+	background-image: url(images/box_footer.png);
+	background-repeat: no-repeat;
+}
+
+#catalogue_container {
+	position: relative;
+	width: 550px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+#catalogue_header {
+	position: relative;
+	width: 550px;
+	height: 50px;
+	background-image: url(images/catalogue_header.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#catalogue_shadow {
+	position: relative;
+	width: 550px;
+	height: 25px;
+	background-image: url(images/catalogue_shadow.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#catalogue_repeat {
+	position: relative;
+	width: 550px;
+	background-image: url(images/catalogue_repeat.png);
+	background-repeat: repeat-y;
+	overflow: hidden;
+	float: left;
+}
+
+#catalogue_footer {
+	position: relative;
+	width: 550px;
+	height: 20px;
+	background-image: url(images/catalogue_footer.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#side_image {
+	position: relative;
+	width: 140px;
+	height: 300px;
+	background-image: url(images/side_image.png);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+	float: left;
+}
+
+#login_menu {
+	border: 1px transparent;
+	color: #FFF;
+	font-size: 11px;
+	padding: 12px;
+	position: relative;
+	text-align: left;
+	width: 200px;
+	float: left;
+}
+
+#login_menu input[type=text], #login_menu input[type=password] {
+	border: 1px solid #ACE;
+	display: block;
+	font-size: 13px;
+	margin: 0 0 5px;
+	-moz-border-radius: 4px;
+	padding: 5px;
+	-webkit-border-radius: 4px;
+	width: 160px;
+}
+
+#login_menu p {
+	margin: 0;
+}
+
+#login_menu label {
+	font-weight: 400;
+}
+
+#login_menu p.login {
+	padding: 10px 0;
+}
+
+#info_message {   
+	position: relative;
+	display: block;
+	width: 100%;
+	border: 1px dashed #2989cc;
+	margin: 2px;
+	text-align: center;
+	overflow: hidden;
+}
+
+#genre_selection_box {
+	position: relative;
+	width: 150px;
+	height: 50px;
+	background-image: url(images/genre_selection_box.png);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+	float: right;
+}
+
+#genre_selection {
+	width: 140px;
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#delete_dialog {
+	font-family: "Lucida Grande", Arial, Sans-serif;
+	font-size: 11px;
+}
+
+.buttonSubmit {
+	background: url(images/button.png) no-repeat left top;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-family: "Lucida Grande", Arial, Sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	height: 26px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-top: 2px;
+	width: 69px;
+}
+
+.buttonSubmit:hover {
+	background-position: left bottom;
+	color: #2989cc;
+}
+
+.box_register_header {
+	background-image: url(images/box_register.png);
+	background-repeat: no-repeat;
+}
+
+.box_profile_header {
+	background-image: url(images/box_profile.png);
+	background-repeat: no-repeat;
+}
+
+.box_admin_artists_header {
+	background-image: url(images/box_admin_artists.png);
+	background-repeat: no-repeat;
+}
+
+.box_admin_lyrics_header {
+	background-image: url(images/box_admin_lyrics.png);
+	background-repeat: no-repeat;
+}
+
+.box_song_details_header {
+	background-image: url(images/box_song_details.png);
+	background-repeat: no-repeat;
+}
+
+.form_table {
+	width: 380px;
+	text-align: left;
+	font-family: Arial;
+	font-size: 11px;
+	color: #FFF;
+	padding: 0px;
+	border-spacing: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.form_table  td{
+	text-align: left;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFF;
+	vertical-align: middle;
+}
+.catalogue_error {
+	position: relative;
+	color: #fff;
+	width: 530px;
+	margin: 10px;
+}
+.song_container {
+	position: relative;
+	width: 260px;
+	height: 100px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+.song_header {
+	position: relative;
+	width: 260px;
+	height: 10px;
+	background-image: url(images/song_header.png);
+	background-repeat: no-repeat;
+}
+.song_repeat {
+	position: relative;
+	width: 260px;
+	height: 80px;
+	background-image: url(images/song_repeat.png);
+	background-repeat: repeat-y;
+	overflow: hidden;
+}
+.song_wrapper {
+	position: relative;
+	width: 250px;
+	height: 80px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.song_image {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	background-image: url(images/song_image.png);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+	float: left;
+}
+.song_content {
+	position: relative;
+	width: 150px;
+	height: 80px;
+	float: left;
+}
+.song_title {
+	position: relative;
+	width: 150px;
+}
+.song_text {
+	position: relative;
+	width: 150px;
+	height: 40px;
+	margin-top: 10px;
+	font-size: 11px;
+}
+.song_footer {
+	position: relative;
+	width: 260px;
+	height: 10px;
+	background-image: url(images/song_footer.png);
+	background-repeat: no-repeat;
+}
+.record_container {
+	position: relative;
+	width: 380px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+.record_header {
+	position: relative;
+	width: 380px;
+	height: 10px;
+	background-image: url(images/record_header.png);
+	background-repeat: no-repeat;
+}
+.record_repeat {
+	position: relative;
+	width: 380px;
+	background-image: url(images/record_repeat.png);
+	background-repeat: repeat-y;
+	overflow: hidden;
+}
+.record_wrapper {
+	position: relative;
+	width: 370px;
+	height: 80px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.record_options {
+	position: relative;
+	width: 120px;
+	height: 80px;
+	margin-left: 10px;
+	float: left;
+}
+.record_footer {
+	position: relative;
+	width: 380px;
+	height: 10px;
+	background-image: url(images/record_footer.png);
+	background-repeat: no-repeat;
+}
+.icon_box {
+	position: relative;
+	width: 64px;
+	height: 32px;
+}
+.edit_icon {
+	position: relative;
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-image: url(images/edit_icon.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	float: left;
+}
+.delete_icon {
+	position: relative;
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-image: url(images/delete_icon.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	float: left;
+}
+.add_icon {
+	position: relative;
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-image: url(images/add_icon.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	float: left;
+}
+.record_top {
+	position: relative;
+	width: 380px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+.record_title {
+	position: relative;
+	width: 100%;
+	height: 15px;
+	border: 1px solid #2b66a5;
+	font-weight: bold;
+}
+.download_link {
+	position: relative;
+	color: #FFF;
+	font-weight: bold;
+}
+.mycart_item {
+	position: relative;
+	display: block;
+	width: 180px;
+	height: 20px;
+	background-image: url(images/mycart_item.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding-top: 5px;
+	color: #ffffff;
+	font-size: 11px;
+	font-family: Arial;
+	font-weight: Bold;
+	float: left;
+}
+
+.mycart_item_link {
+	position: relative;
+	width: 75px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+.mycart_item_removal {
+	position: relative;
+	width: 75px;
+	margin-left: 10px;
+	float: left;
+}
+
+.mycart_item:hover {
+	background-position: 0px -25px;
+}
+
+.link {
+	position: relative;
+	cursor: pointer;
+}
+
+
+div.growlUI {
+	background: url(images/check.png) no-repeat 10px 10px;
+}
+
+div.growlUI h1, div.growlUI h2 {
+	color: #FFF;
+	font-family: Arial;
+	padding: 5px 5px 5px 75px;
+	text-align: left;
+}
+
+.pagination{
+	margin-left: 20px;
+	padding: 2px;
+}
+
+.pagination ul{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-size: 16px;
+}
+.pagination li{
+	list-style-type: none;
+	display: inline;
+	padding-bottom: 1px;
+}
+.pagination a, .pagination a:visited{
+	padding: 0 5px;
+	border: 1px solid #9aafe5;
+	text-decoration: none; 
+	color: #2e6ab1;
+	cursor: pointer;
+}
+
+.pagination a:hover, .pagination a:active{
+	border: 1px solid #2b66a5;
+	color: #000;
+	background-color: #b4e0ff;
+}
+
+.pagination a.currentpage{
+	background-color: #2e6ab1;
+	color: #FFF !important;
+	border-color: #2b66a5;
+	font-weight: bold;
+	cursor: default;
+}
+
+.pagination a.disablelink, .pagination a.disablelink:hover{
+	background-color: white;
+	cursor: default;
+	color: #929292;
+	border-color: #929292;
+	font-weight: normal !important;
+}
+
+.pagination a.prevnext{
+	font-weight: bold;
+}
+
+.tipsy-inner {
+	font-weight: 700;
+	line-height: 1.5em;
+	padding: 10px 15px;
+}
+
+.tipsy {
+	background-repeat: no-repeat;
+	-opacity: .8;
+	padding: 5px;
+}
+
+.tipsy-inner {
+	background-color: #000;
+	-border-radius: 4px;
+	color: #FFF;
+	font: 11px 'Lucida Grande', sans-serif;
+	font-weight: 700;
+	-khtml-border-radius: 4px;
+	max-width: 200px;
+	-moz-border-radius: 4px;
+	padding: 8px;
+	text-align: left;
+	-webkit-border-radius: 4px;
+}
+
+.tipsy-north {
+	background-image: url(images/tipsy-north.gif);
+	background-position: top center;
+}
+
+.tipsy-south {
+	background-image: url(images/tipsy-south.gif);
+	background-position: bottom center;
+}
+
+.tipsy-east {
+	background-image: url(images/tipsy-east.gif);
+	background-position: right center;
+}
+
+.tipsy-west {
+	background-image: url(images/tipsy-west.gif);
+	background-position: left center;
+}
+
+#song_search {
+	margin-top: 5px;
+}
+
+#song_search_q {
+	background: #fff;
+	border-right-width:0;
+	border:1px solid #fff;
+	outline-width:0;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	font: 18px Helvetica,Arial,Sans-serif;
+	width: 260px;
+	margin:0;
+	padding:8px 10px;
+}
+
+#song_search_submit {
+	background:#bbb url(images/bg_search.png) repeat-x 0 0;
+	margin-left:-.5em;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-bottomright:5px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	font:18px Helvetica,Arial,Sans-serif;
+	font-weight:700;
+	color:#333;
+	outline:none;
+	text-decoration:none;
+	text-shadow:0 1px 0 #fff;
+	padding:10px 15px;
+}
